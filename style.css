@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.links {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+}
+
+.links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(GitHub\ -\ damnitharshit_Wallpapers_\ A\ simple\ collection\ of\ my\ favorite\ wallpapers.jpg);
+}
+
+#main {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+img {
+    height: 94px;
+    width: 280px;
+}
+
+.search {
+    height: 12px;
+    width: 12px;
+    margin: 6px;
+    /* vertical-align: bottom; */
+}
+
+#input {
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 27px;
+    padding: 5px;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    height: 34px;
+}
+
+.else {
+    margin-top: 20px;
+}
+
+#input:hover {
+    box-shadow: 0px 0px 5px darkslategrey;
+}
+
+#input input {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin: 5px;
+    font-size: 17px;
+}
+
+#input img {
+    opacity: 0.5;
+}
+
+.extras {
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.5; */
+}
+
+/* #extras input:hover {
+    opacity: 1.0;
+} */
+
+.extras input {
+    /* background-color: #f8f9fa; */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.extras input:hover {
+    border: 1px rgb(7, 7, 7);
+}

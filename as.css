@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+hr {
+    opacity: 0.2;
+    margin: 20px 0px;
+}
+
+#logo {
+    margin: 22px;
+}
+
+#logo img {
+    width: 70px;
+    height: auto;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 5vh;
+}
+
+#links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#sub {
+    margin-left: 40px;
+}
+
+#sub p {
+    font-size: 20px;
+    color: brown;
+}
+
+#inputs {
+    margin-left: 40px;
+}
+
+#inputs #in {
+    margin-top: 20px;
+    display: flex;
+    width: 95%;
+}
+
+#in #label {
+    position: relative;
+    display: flex;
+    float: left;
+    padding-top: 7px;
+    width: 38%;
+    font-size: 13px;
+    vertical-align: baseline;
+    padding-bottom: 0px;
+}
+
+#in #en {
+    position: relative;
+    float: right;
+    width: 40%;
+}
+
+#en input {
+    height: 26px;
+    width: 100%;
+}
+
+#do {
+    display: flex;
+    width: 40%;
+    position: relative;
+    float: right;
+}
+
+#ein {
+    width: 40%;
+}
+
+#ein input {
+    width: 100%;
+    height: 26px;
+}
+
+#to {
+    font-size: 13px;
+    width: 20%;
+    text-align: center;
+    padding-top: 7px;
+    vertical-align: bottom;
+}
+
+#button {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+#button input {
+    padding: 5px 15px;
+    background-color: #4d90fe;
+    background-image: linear-gradient(top, #4d90fe, #4787ed);
+    border-radius: 2px;
+    border: 1px solid #3079ed;
+}
